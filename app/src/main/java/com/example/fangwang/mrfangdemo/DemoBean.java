@@ -6,6 +6,15 @@ import android.os.Parcelable;
 public class DemoBean implements Parcelable {
     private String name;
     private String password;
+    private String textStr;
+
+    private String getTextStr(){
+        return textStr;
+    }
+
+    private void setTextStr(String textStr){
+        this.textStr =  textStr;
+    }
 
     public String getName() {
         return name;
