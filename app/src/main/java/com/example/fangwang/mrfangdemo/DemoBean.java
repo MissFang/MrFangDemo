@@ -7,6 +7,7 @@ public class DemoBean implements Parcelable {
     private String name;
     private String password;
     private String textStr;
+    private String textStr2;
 
     private String getTextStr(){
         return textStr;
